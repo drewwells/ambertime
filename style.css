@@ -1,0 +1,22 @@
+body {
+    background: #b84c94;
+    color: magenta;
+}
+a,a:visited{
+    color: magenta;
+}
+h1 {
+    text-align: center;
+}
+#page{
+    margin: 0 auto;
+    width: 480px;
+    background: lightgray;
+    height: 100%;
+}
+.right {
+    text-align: right;
+}
+.right h3 {
+    padding-right: 3em;
+}
