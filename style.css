@@ -1,6 +1,12 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     background: #b84c94;
     color: magenta;
+    font-family: "Trebuchet MS",Trebuchet,"Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
 }
 a,a:visited{
     color: magenta;
@@ -12,11 +18,16 @@ h1 {
     margin: 0 auto;
     width: 480px;
     background: lightgray;
-    height: 100%;
+    height: 90%;
 }
 .right {
     text-align: right;
 }
 .right h3 {
     padding-right: 3em;
+}
+.amazon_widget_US_8004_0 {
+    position: fixed;
+    right: 1em;
+    bottom: 0;
 }
