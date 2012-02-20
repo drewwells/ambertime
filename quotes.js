@@ -1,0 +1,2 @@
+var quotes = [];
+quotes.push('');
